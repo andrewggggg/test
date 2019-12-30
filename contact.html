@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+
+    <p>123 Fake Street</p>
+    <p>0412345678</p>
+    <p>andrew@gmail.com</p>
+
+  <hr>
+
+  <!--Default attributes in the form HTML element.
+  "action": what should happen when user presses Submit
+  "post": transfers the things typed in the form into the action
+  "enctype": data in form is encrypted in plain text. Will not unusual symbols in the forms -->
+  <form action="mailto:andrew@dogmail.com" method="post" enctype="text/plain">
+    <!--Ask user for their name and storing into input -->
+    <!--Label inside the form -->
+    <label>Your Name: </label>
+    <!--The input is a self-closing tag-->
+    <input type="text" name="yourName" value="">
+    <input type="color" name="" value="">
+    <br>
+    <label>Do you want to subscribe? </label>
+    <input type="checkbox" name="" value="">
+    <br>
+    <label>Password </label>
+    <input type="password" name="yourPassword" value="">
+    <br>
+    <label>Your Email: </label>
+    <input type="email" name="yourEmail" value="">
+    <br>
+    <label>Your Message: </label>
+    <!--textarea: For empty canvas for writing anything-->
+    <textarea name="yourMessage" rows="10" cols="30"></textarea>
+    <br>
+    <input type="submit" name="">
+  </form>
+
+  </body>
+</html>
